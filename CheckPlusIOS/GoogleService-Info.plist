@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>384485184062-onv9gtke6d5kpd7tf68mvm94fft7qk7o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.384485184062-onv9gtke6d5kpd7tf68mvm94fft7qk7o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCemd1PqmIqLNQB1BARGdp5eN_aaPhsL_I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>384485184062</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Langio.CheckPlusApp</string>
+	<key>PROJECT_ID</key>
+	<string>checkplus-d7db7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>checkplus-d7db7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:384485184062:ios:3b0b499da1156f7c</string>
+	<key>DATABASE_URL</key>
+	<string>https://checkplus-d7db7.firebaseio.com</string>
+</dict>
+</plist>

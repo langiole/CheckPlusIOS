@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E78BA357FA4F7C64F688B240 /* libPods-CheckPlusIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D947E2C33B1FEBA6F514A825 /* libPods-CheckPlusIOS.a */; };
 		FB8663841D3712D6003D8226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8663831D3712D6003D8226 /* AppDelegate.swift */; };
-		FB8663861D3712D6003D8226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8663851D3712D6003D8226 /* ViewController.swift */; };
-		FB8663891D3712D6003D8226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8663871D3712D6003D8226 /* Main.storyboard */; };
 		FB86638B1D3712D6003D8226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB86638A1D3712D6003D8226 /* Assets.xcassets */; };
 		FB86638E1D3712D6003D8226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB86638C1D3712D6003D8226 /* LaunchScreen.storyboard */; };
 		FB8663991D3712D6003D8226 /* CheckPlusIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8663981D3712D6003D8226 /* CheckPlusIOSTests.swift */; };
 		FB8663A41D3712D6003D8226 /* CheckPlusIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8663A31D3712D6003D8226 /* CheckPlusIOSUITests.swift */; };
+		FB9BBED81D371FE10032AA83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9BBED71D371FE10032AA83 /* SignInViewController.swift */; };
+		FB9BBEDA1D3746860032AA83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB9BBED91D3746860032AA83 /* GoogleService-Info.plist */; };
+		FB9BBEDD1D3807580032AA83 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9BBEDC1D3807580032AA83 /* CloudKit.framework */; };
+		FBCE009B1D3713CF0088146B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCE009A1D3713CF0088146B /* Main.storyboard */; };
+		FBCE009D1D3713F60088146B /* ColorPickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE009C1D3713F60088146B /* ColorPickerCollectionViewController.swift */; };
+		FBCE009F1D3714210088146B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE009E1D3714210088146B /* Colors.swift */; };
+		FBCE00A11D37143A0088146B /* ColorUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00A01D37143A0088146B /* ColorUICollectionViewCell.swift */; };
+		FBCE00A31D37144F0088146B /* KeyEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00A21D37144F0088146B /* KeyEnums.swift */; };
+		FBCE00A51D3714620088146B /* NavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00A41D3714620088146B /* NavBarViewController.swift */; };
+		FBCE00A71D3714760088146B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00A61D3714760088146B /* SettingsTableViewController.swift */; };
+		FBCE00A91D37148B0088146B /* SettingsVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00A81D37148B0088146B /* SettingsVariables.swift */; };
+		FBCE00AB1D37149F0088146B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00AA1D37149F0088146B /* ToDoItem.swift */; };
+		FBCE00AD1D3714B00088146B /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00AC1D3714B00088146B /* TodoTableViewCell.swift */; };
+		FBCE00AF1D3714C90088146B /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00AE1D3714C90088146B /* TodoTableViewController.swift */; };
+		FBCE00B11D3714E20088146B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00B01D3714E20088146B /* UIColor+Extension.swift */; };
+		FBCE00B31D3714F60088146B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE00B21D3714F60088146B /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86DCFEF3E84E362884E44B16 /* Pods-CheckPlusIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckPlusIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckPlusIOS/Pods-CheckPlusIOS.release.xcconfig"; sourceTree = "<group>"; };
+		D1EB320947B303BC4259C26B /* Pods-CheckPlusIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckPlusIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckPlusIOS/Pods-CheckPlusIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D947E2C33B1FEBA6F514A825 /* libPods-CheckPlusIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheckPlusIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8663801D3712D5003D8226 /* CheckPlusIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckPlusIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8663831D3712D6003D8226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB8663851D3712D6003D8226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB8663881D3712D6003D8226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB86638A1D3712D6003D8226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB86638D1D3712D6003D8226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB86638F1D3712D6003D8226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +63,24 @@
 		FB86639F1D3712D6003D8226 /* CheckPlusIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckPlusIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB8663A31D3712D6003D8226 /* CheckPlusIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPlusIOSUITests.swift; sourceTree = "<group>"; };
 		FB8663A51D3712D6003D8226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9BBED41D371B950032AA83 /* CheckPlusIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckPlusIOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB9BBED71D371FE10032AA83 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FB9BBED91D3746860032AA83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB9BBEDB1D3806940032AA83 /* CheckPlusIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CheckPlusIOS.entitlements; sourceTree = "<group>"; };
+		FB9BBEDC1D3807580032AA83 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		FBCE009A1D3713CF0088146B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FBCE009C1D3713F60088146B /* ColorPickerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerCollectionViewController.swift; sourceTree = "<group>"; };
+		FBCE009E1D3714210088146B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FBCE00A01D37143A0088146B /* ColorUICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUICollectionViewCell.swift; sourceTree = "<group>"; };
+		FBCE00A21D37144F0088146B /* KeyEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyEnums.swift; sourceTree = "<group>"; };
+		FBCE00A41D3714620088146B /* NavBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarViewController.swift; sourceTree = "<group>"; };
+		FBCE00A61D3714760088146B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		FBCE00A81D37148B0088146B /* SettingsVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVariables.swift; sourceTree = "<group>"; };
+		FBCE00AA1D37149F0088146B /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		FBCE00AC1D3714B00088146B /* TodoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		FBCE00AE1D3714C90088146B /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		FBCE00B01D3714E20088146B /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		FBCE00B21D3714F60088146B /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78BA357FA4F7C64F688B240 /* libPods-CheckPlusIOS.a in Frameworks */,
+				FB9BBEDD1D3807580032AA83 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +110,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		495B489AE43B5DA20E176269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9BBEDC1D3807580032AA83 /* CloudKit.framework */,
+				D947E2C33B1FEBA6F514A825 /* libPods-CheckPlusIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		506FFB36EE59EB43DC48A022 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1EB320947B303BC4259C26B /* Pods-CheckPlusIOS.debug.xcconfig */,
+				86DCFEF3E84E362884E44B16 /* Pods-CheckPlusIOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FB8663771D3712D5003D8226 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				FB8663971D3712D6003D8226 /* CheckPlusIOSTests */,
 				FB8663A21D3712D6003D8226 /* CheckPlusIOSUITests */,
 				FB8663811D3712D5003D8226 /* Products */,
+				506FFB36EE59EB43DC48A022 /* Pods */,
+				495B489AE43B5DA20E176269 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +153,27 @@
 		FB8663821D3712D6003D8226 /* CheckPlusIOS */ = {
 			isa = PBXGroup;
 			children = (
+				FB9BBEDB1D3806940032AA83 /* CheckPlusIOS.entitlements */,
+				FB9BBED91D3746860032AA83 /* GoogleService-Info.plist */,
 				FB8663831D3712D6003D8226 /* AppDelegate.swift */,
-				FB8663851D3712D6003D8226 /* ViewController.swift */,
-				FB8663871D3712D6003D8226 /* Main.storyboard */,
+				FBCE009A1D3713CF0088146B /* Main.storyboard */,
 				FB86638A1D3712D6003D8226 /* Assets.xcassets */,
 				FB86638C1D3712D6003D8226 /* LaunchScreen.storyboard */,
 				FB86638F1D3712D6003D8226 /* Info.plist */,
+				FBCE009C1D3713F60088146B /* ColorPickerCollectionViewController.swift */,
+				FBCE009E1D3714210088146B /* Colors.swift */,
+				FBCE00A01D37143A0088146B /* ColorUICollectionViewCell.swift */,
+				FBCE00A21D37144F0088146B /* KeyEnums.swift */,
+				FBCE00A41D3714620088146B /* NavBarViewController.swift */,
+				FBCE00A61D3714760088146B /* SettingsTableViewController.swift */,
+				FBCE00A81D37148B0088146B /* SettingsVariables.swift */,
+				FBCE00AA1D37149F0088146B /* ToDoItem.swift */,
+				FBCE00AC1D3714B00088146B /* TodoTableViewCell.swift */,
+				FBCE00AE1D3714C90088146B /* TodoTableViewController.swift */,
+				FBCE00B01D3714E20088146B /* UIColor+Extension.swift */,
+				FBCE00B21D3714F60088146B /* UIImage+Extension.swift */,
+				FB9BBED41D371B950032AA83 /* CheckPlusIOS-Bridging-Header.h */,
+				FB9BBED71D371FE10032AA83 /* SignInViewController.swift */,
 			);
 			path = CheckPlusIOS;
 			sourceTree = "<group>";
@@ -132,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB8663A81D3712D6003D8226 /* Build configuration list for PBXNativeTarget "CheckPlusIOS" */;
 			buildPhases = (
+				F0BDADBA2A272F2E353A81E0 /* 📦 Check Pods Manifest.lock */,
 				FB86637C1D3712D5003D8226 /* Sources */,
 				FB86637D1D3712D5003D8226 /* Frameworks */,
 				FB86637E1D3712D5003D8226 /* Resources */,
+				1167B07939E66F7FCB794812 /* 📦 Embed Pods Frameworks */,
+				1CF7C769A0F31E3EE000E25A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +267,12 @@
 				TargetAttributes = {
 					FB86637F1D3712D5003D8226 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = B7M7SN6P8B;
+						DevelopmentTeam = 8476R2BK96;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					FB8663931D3712D6003D8226 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,9 +311,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBCE009B1D3713CF0088146B /* Main.storyboard in Resources */,
+				FB9BBEDA1D3746860032AA83 /* GoogleService-Info.plist in Resources */,
 				FB86638E1D3712D6003D8226 /* LaunchScreen.storyboard in Resources */,
 				FB86638B1D3712D6003D8226 /* Assets.xcassets in Resources */,
-				FB8663891D3712D6003D8226 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +334,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1167B07939E66F7FCB794812 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckPlusIOS/Pods-CheckPlusIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CF7C769A0F31E3EE000E25A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckPlusIOS/Pods-CheckPlusIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BDADBA2A272F2E353A81E0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB86637C1D3712D5003D8226 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB8663861D3712D6003D8226 /* ViewController.swift in Sources */,
+				FB9BBED81D371FE10032AA83 /* SignInViewController.swift in Sources */,
+				FBCE00B31D3714F60088146B /* UIImage+Extension.swift in Sources */,
+				FBCE009D1D3713F60088146B /* ColorPickerCollectionViewController.swift in Sources */,
+				FBCE009F1D3714210088146B /* Colors.swift in Sources */,
+				FBCE00AB1D37149F0088146B /* ToDoItem.swift in Sources */,
+				FBCE00B11D3714E20088146B /* UIColor+Extension.swift in Sources */,
+				FBCE00AD1D3714B00088146B /* TodoTableViewCell.swift in Sources */,
+				FBCE00A51D3714620088146B /* NavBarViewController.swift in Sources */,
+				FBCE00A11D37143A0088146B /* ColorUICollectionViewCell.swift in Sources */,
+				FBCE00A91D37148B0088146B /* SettingsVariables.swift in Sources */,
 				FB8663841D3712D6003D8226 /* AppDelegate.swift in Sources */,
+				FBCE00AF1D3714C90088146B /* TodoTableViewController.swift in Sources */,
+				FBCE00A31D37144F0088146B /* KeyEnums.swift in Sources */,
+				FBCE00A71D3714760088146B /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB8663871D3712D6003D8226 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB8663881D3712D6003D8226 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB86638C1D3712D6003D8226 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -402,23 +534,34 @@
 		};
 		FB8663A91D3712D6003D8226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1EB320947B303BC4259C26B /* Pods-CheckPlusIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CheckPlusIOS/CheckPlusIOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CheckPlusIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CheckPlusIOS/CheckPlusIOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FB8663AA1D3712D6003D8226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DCFEF3E84E362884E44B16 /* Pods-CheckPlusIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CheckPlusIOS/CheckPlusIOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CheckPlusIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CheckPlusIOS/CheckPlusIOS-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -487,6 +630,7 @@
 				FB8663AA1D3712D6003D8226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB8663AB1D3712D6003D8226 /* Build configuration list for PBXNativeTarget "CheckPlusIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +639,7 @@
 				FB8663AD1D3712D6003D8226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB8663AE1D3712D6003D8226 /* Build configuration list for PBXNativeTarget "CheckPlusIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +648,7 @@
 				FB8663B01D3712D6003D8226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
